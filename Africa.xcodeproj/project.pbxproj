@@ -12,6 +12,7 @@
 		0F3A26052A9369750000F8C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3A26042A9369750000F8C2 /* Assets.xcassets */; };
 		0F3A26082A9369750000F8C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3A26072A9369750000F8C2 /* Preview Assets.xcassets */; };
 		0F625AB02A9371C00058CC81 /* Video in Resources */ = {isa = PBXBuildFile; fileRef = 0F625AAF2A9371C00058CC81 /* Video */; };
+		0F625AB22A93731E0058CC81 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 0F625AB12A93731E0058CC81 /* Data */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0F3A26072A9369750000F8C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0F625AAE2A9370560058CC81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0F625AAF2A9371C00058CC81 /* Video */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Video; sourceTree = "<group>"; };
+		0F625AB12A93731E0058CC81 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				0F625AAE2A9370560058CC81 /* Info.plist */,
+				0F625AB12A93731E0058CC81 /* Data */,
 				0F625AAF2A9371C00058CC81 /* Video */,
 				0F3A26002A9369740000F8C2 /* AfricaApp.swift */,
 				0F3A26022A9369740000F8C2 /* ContentView.swift */,
@@ -132,6 +135,7 @@
 			files = (
 				0F625AB02A9371C00058CC81 /* Video in Resources */,
 				0F3A26082A9369750000F8C2 /* Preview Assets.xcassets in Resources */,
+				0F625AB22A93731E0058CC81 /* Data in Resources */,
 				0F3A26052A9369750000F8C2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
