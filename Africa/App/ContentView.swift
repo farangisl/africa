@@ -38,7 +38,11 @@ struct ContentView: View {
                         }
                     }
                     .listSectionSeparator(.hidden, edges: .bottom)
-                }
+                        
+                    CreditsView()
+                        .frame(maxWidth: .infinity, alignment: .center)
+
+                    }
                     .listStyle(.plain)
                 } else {
                     ScrollView(.vertical, showsIndicators: false) {
